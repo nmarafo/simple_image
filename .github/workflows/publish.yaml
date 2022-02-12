@@ -17,4 +17,7 @@ jobs:
       - run: flutter test
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          baseHref: /registration-desk/
+          baseHref: /simple_image/
+          workingDir: example
+          webRenderer: canvaskit
+          targetBranch: gh-pages
