@@ -18,6 +18,5 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
           baseHref: /simple_image/
-          workingDir: example
           webRenderer: canvaskit
           targetBranch: gh-pages
